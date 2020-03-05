@@ -1,0 +1,309 @@
+T1	INFERENCE 0 189	第二次 入住 ， 让 前台 （ 一个 年轻 的 男 前台 ） 叫 出租车 ， 结果 叫 了 优 步 类似 的 私家车 ， 到 机场 收费 70欧 ， 比 第一次 他 的 同事 给 叫 的 出租车 （ 不 给 打 表 直接 要价 55欧 ） 还 贵 ， 均 是 工作日 早上 ； 地铁 换 两部 去 机场 不 方便 。 建议 如 需 前台 帮忙 叫 车 务必 再次 确认 清楚 。
+A1	lexicale T1
+A2	theme T1 qualiteService
+A3	discursive T1
+T2	UNCERTAINE 0 8	第二次 入住 ，
+T3	UNCERTAINE 9 38	让 前台 （ 一个 年轻 的 男 前台 ） 叫 出租车 ，
+T4	INFERENCE 39 60	结果 叫 了 优 步 类似 的 私家车 ，
+T5	INFERENCE 61 74	到 机场 收费 70欧 ，
+T6	INFERENCE 75 125	比 第一次 他 的 同事 给 叫 的 出租车 （ 不 给 打 表 直接 要价 55欧 ） 还 贵 ，
+A5	enonciative T6
+A6	theme T6 qualiteService
+A8	enonciative T1
+T7	UNCERTAINE 126 138	均 是 工作日 早上 ；
+T8	INFERENCE 139 158	地铁 换 两部 去 机场 不 方便 。
+T9	INFERENCE 159 189	建议 如 需 前台 帮忙 叫 车 务必 再次 确认 清楚 。
+T10	INFERENCE 190 242	个人 度假 的话 性价比 一般 位置 一般 不 推荐 ； 公司 在 附近 的 商务 出差 可以 考虑 。
+A9	enonciative T10
+A10	theme T10 mixte
+A11	logique T10
+T11	ABSENCE 190 218	个人 度假 的话 性价比 一般 位置 一般 不 推荐 ；
+A12	theme T11 mixte
+T12	INFERENCE 219 242	公司 在 附近 的 商务 出差 可以 考虑 。
+A13	theme T12 localisation
+A14	logique T12
+T13	ABSENCE 243 253	早餐 品类 很少 。
+A15	theme T13 equipement
+T14	ABSENCE 254 267	楼层 高 的 网络 弱 。
+A16	theme T14 equipement
+T15	INFERENCE 268 317	因为 原定 的 公寓 出 了 问题 ， 临时 改订 的 这家 酒店 ， 没想到 意外 的 舒适 。
+A17	enonciative T15
+A18	theme T15 general
+T16	UNCERTAINE 268 287	因为 原定 的 公寓 出 了 问题 ，
+T17	UNCERTAINE 288 303	临时 改订 的 这家 酒店 ，
+T18	INFERENCE 304 317	没想到 意外 的 舒适 。
+A19	enonciative T18
+A20	theme T18 general
+T19	ABSENCE 318 332	首先 酒店 位置 很 好 ，
+A21	theme T19 localisation
+T21	UNCERTAINE 333 341	距离 卢浮宫 ，
+T22	UNCERTAINE 342 361	老佛爷 等 步行 也 就 20分钟 ，
+T23	INFERENCE 342 345	老佛爷
+A31	lexicale T23
+A32	theme T23 localisation
+T24	INFERENCE 362 378	其次 具体 地铁站 非常 近 ，
+A34	lexicale T24
+A35	theme T24 localisation
+A36	logique T24
+T25	INFERENCE 368 371	地铁站
+A37	lexicale T25
+A38	theme T25 localisation
+T26	UNCERTAINE 379 390	步行 三分钟 而已 。
+T27	UNCERTAINE 391 405	然后 酒店 周边 中餐厅 ，
+T28	INFERENCE 406 417	网 红 餐馆 很多 ，
+T29	ABSENCE 418 428	用餐 非常 方便 ！
+T30	ABSENCE 429 458	大床房 很 宽敞 ， 洗澡 非常 棒 ， 床 品 也好 ！
+A40	theme T30 equipement
+T31	ABSENCE 429 439	大床房 很 宽敞 ，
+A41	theme T31 equipement
+T32	ABSENCE 440 449	洗澡 非常 棒 ，
+A42	theme T32 equipement
+T33	ABSENCE 450 458	床 品 也好 ！
+A43	theme T33 equipement
+T34	ABSENCE 459 470	服务 也 还 可以 ！
+A44	theme T34 qualiteService
+T35	INFERENCE 471 510	最后 ， 性价比 高 ， 和 四星 五星 酒店 相比 ， 这个 价位 足矣 ！
+A45	enonciative T35
+A46	lexicale T35
+A47	theme T35 prix
+T36	UNCERTAINE 471 475	最后 ，
+T37	ABSENCE 476 483	性价比 高 ，
+T38	INFERENCE 500 510	这个 价位 足矣 ！
+A49	theme T38 prix
+T39	UNCERTAINE 484 499	和 四星 五星 酒店 相比 ，
+T40	INFERENCE 511 537	整洁 干净 ， 有 提供 早饭 无需 额外 付费 。
+A50	theme T40 mixte
+T41	ABSENCE 511 518	整洁 干净 ，
+T42	INFERENCE 519 537	有 提供 早饭 无需 额外 付费 。
+A51	theme T42 equipement
+T43	ABSENCE 538 548	总体 非常 满意 ！
+T46	INFERENCE 570 589	有 需要 的 一切 家具 跟 电器 。
+A56	theme T46 equipement
+T47	ABSENCE 590 602	厨房 也 很 好 用 ，
+A57	theme T47 equipement
+T48	INFERENCE 603 628	我们 在家 做 简单 的 早餐 宵夜 等 吃食 。
+A58	theme T48 equipement
+A59	logique T48
+T49	INFERENCE 629 677	办理 入住 、 拿 钥匙 、 退房 等 ， 一切 都 很 方便 ， 房东 安排 的 很 周到 。
+A60	theme T49 qualiteService
+T50	UNCERTAINE 629 650	办理 入住 、 拿 钥匙 、 退房 等 ，
+T51	ABSENCE 651 662	一切 都 很 方便 ，
+A62	theme T51 general
+T52	INFERENCE 663 677	房东 安排 的 很 周到 。
+A63	theme T52 personnel
+T53	INFERENCE 678 735	酒店 的 设施 确实 比较 简陋 ， 没有 洗漱 用品 ， 提供 的 沐浴露 非常 廉价 ， 而且 还有 损坏 。
+A64	theme T53 equipement
+T54	INFERENCE 736 774	房间 不 提供 电话机 ， 有 事情 需要 与 前台 沟通 会 很 麻烦 。
+A65	theme T54 equipement
+T55	INFERENCE 736 749	房间 不 提供 电话机 ，
+A67	theme T55 equipement
+A68	logique T55
+T56	INFERENCE 750 774	有 事情 需要 与 前台 沟通 会 很 麻烦 。
+T57	INFERENCE 775 787	位置 不错 ， 有 早餐
+A69	theme T57 mixte
+T58	ABSENCE 788 796	早餐 有些 单调
+A70	theme T58 equipement
+T59	INFERENCE 797 803	阳台 无 光
+A71	theme T59 equipement
+T60	ABSENCE 804 838	套房 很 整齐 ， 浴室 较大 ， 位置 很 好 ， 安全 的 一区
+A72	theme T60 mixte
+T61	ABSENCE 839 845	隔音 不 佳
+A73	theme T61 equipement
+T62	ABSENCE 678 696	酒店 的 设施 确实 比较 简陋 ，
+A75	theme T62 equipement
+T63	INFERENCE 697 707	没有 洗漱 用品 ，
+A76	theme T63 equipement
+T64	INFERENCE 708 724	提供 的 沐浴露 非常 廉价 ，
+A78	theme T64 equipement
+T65	UNCERTAINE 725 735	而且 还有 损坏 。
+A80	theme T43 general
+A81	logique T46
+T44	INFERENCE 549 589	干净 、 方便   位置 也 很 好 ， 有 需要 的 一切 家具 跟 电器 。
+A52	theme T44 mixte
+A53	logique T44
+T66	INFERENCE 590 628	厨房 也 很 好 用 ， 我们 在家 做 简单 的 早餐 宵夜 等 吃食 。
+A54	theme T66 equipement
+A83	logique T66
+T67	INFERENCE 0 158	第二次 入住 ， 让 前台 （ 一个 年轻 的 男 前台 ） 叫 出租车 ， 结果 叫 了 优 步 类似 的 私家车 ， 到 机场 收费 70欧 ， 比 第一次 他 的 同事 给 叫 的 出租车 （ 不 给 打 表 直接 要价 55欧 ） 还 贵 ， 均 是 工作日 早上 ； 地铁 换 两部 去 机场 不 方便 。
+A84	enonciative T67
+A85	pragmatique T67
+A86	lexicale T67
+A87	theme T67 qualiteService
+A88	discursive T67
+A4	pragmatique T1
+A89	theme T9 qualiteService
+A90	logique T9
+A91	pragmatique T4
+A92	lexicale T4
+A93	theme T4 qualiteService
+T68	INFERENCE 46 49	优 步
+A94	lexicale T68
+A95	theme T68 qualiteService
+A7	pragmatique T6
+T69	INFERENCE 318 390	首先 酒店 位置 很 好 ， 距离 卢浮宫 ， 老佛爷 等 步行 也 就 20分钟 ， 其次 具体 地铁站 非常 近 ， 步行 三分钟 而已 。
+A96	pragmatique T69
+A97	lexicale T69
+A98	theme T69 localisation
+T70	INFERENCE 336 339	卢浮宫
+A100	lexicale T70
+A101	theme T70 localisation
+T71	INFERENCE 400 403	中餐厅
+A103	lexicale T71
+A104	theme T71 localisation
+A105	theme T29 localisation
+A106	pragmatique T28
+A107	lexicale T28
+A108	theme T28 localisation
+T72	INFERENCE 406 412	网 红 餐馆
+A109	lexicale T72
+A110	theme T72 localisation
+A111	theme T41 proprete
+A112	logique T40
+A113	logique T42
+A48	pragmatique T35
+A74	pragmatique T53
+A114	lexicale T53
+T73	INFERENCE 713 716	沐浴露
+A115	lexicale T73
+A116	theme T73 equipement
+A66	pragmatique T54
+A117	lexicale T54
+T74	INFERENCE 744 747	电话机
+A118	lexicale T74
+A119	theme T74 equipement
+A120	theme T56 qualiteService
+A121	logique T56
+A122	logique T54
+T75	INFERENCE 783 787	有 早餐
+A124	pragmatique T75
+A125	theme T75 equipement
+T76	ABSENCE 775 782	位置 不错 ，
+A126	theme T76 localisation
+T77	ABSENCE 804 813	套房 很 整齐 ，
+A129	theme T77 equipement
+T78	ABSENCE 814 821	浴室 较大 ，
+A132	theme T78 equipement
+T80	ABSENCE 822 830	位置 很 好 ，
+A135	theme T80 localisation
+T81	ABSENCE 831 838	安全 的 一区
+A136	theme T81 securite
+A138	logique T1
+A139	pragmatique T5
+A140	theme T5 qualiteService
+A141	lexicale T6
+T82	INFERENCE 94 97	出租车
+A142	lexicale T82
+A143	theme T82 qualiteService
+A144	pragmatique T8
+A145	lexicale T8
+A146	theme T8 localisation
+T83	INFERENCE 139 141	地铁
+A147	lexicale T83
+A148	theme T83 localisation
+A79	enonciative T69
+T84	INFERENCE 391 428	然后 酒店 周边 中餐厅 ， 网 红 餐馆 很多 ， 用餐 非常 方便 ！
+A23	pragmatique T84
+A30	lexicale T84
+A149	theme T84 localisation
+A39	theme T37 general
+T85	INFERENCE 486 494	四星 五星 酒店
+A153	lexicale T85
+A154	theme T85 equipement
+A155	logique T38
+A156	pragmatique T40
+A157	pragmatique T42
+T45	UNCERTAINE 549 558	干净 、 方便  
+T86	ABSENCE 559 569	位置 也 很 好 ，
+A55	theme T86 localisation
+A82	pragmatique T52
+A61	pragmatique T49
+A164	discursive T53
+A165	logique T53
+A77	pragmatique T63
+A166	lexicale T63
+T89	INFERENCE 700 705	洗漱 用品
+A167	lexicale T89
+A168	theme T89 equipement
+A169	lexicale T64
+A170	logique T64
+A171	pragmatique T55
+A172	lexicale T55
+A123	pragmatique T57
+A173	pragmatique T59
+A175	logique T59
+A24	lexicale T59
+T20	INFERENCE 797 799	阳台
+A25	lexicale T20
+A26	theme T20 equipement
+A22	polarite T11 negatif
+A27	polarite T13 negatif
+A28	polarite T14 negatif
+A29	polarite T19 positif
+A33	polarite T37 positif
+A99	polarite T29 positif
+A102	polarite T31 positif
+A127	polarite T30 positif
+A128	polarite T32 positif
+A130	polarite T33 positif
+A131	polarite T34 neutre
+A133	polarite T41 positif
+A134	polarite T43 positif
+A137	polarite T86 positif
+A150	polarite T47 positif
+A151	polarite T51 positif
+A152	polarite T62 negatif
+A158	polarite T76 positif
+A159	polarite T58 negatif
+A160	polarite T60 positif
+A161	polarite T77 positif
+A162	polarite T78 positif
+A163	polarite T80 positif
+A174	polarite T81 positif
+A176	polarite T61 negatif
+A177	polarite T1 negatif
+A178	polarite T67 negatif
+A179	polarite T4 inconnu
+A180	polarite T68 positif
+A181	polarite T5 neutre
+A182	polarite T6 negatif
+A183	polarite T82 positif
+A184	polarite T8 negatif
+A185	polarite T83 positif
+A186	polarite T9 neutre
+A187	polarite T10 negatif
+A188	polarite T12 neutre
+A189	polarite T15 positif
+A190	polarite T18 positif
+A191	polarite T69 positif
+A192	polarite T23 positif
+A193	polarite T70 positif
+A194	polarite T24 positif
+A195	polarite T25 positif
+A196	polarite T84 positif
+A197	polarite T28 positif
+A198	polarite T72 positif
+A199	polarite T71 positif
+A200	polarite T35 positif
+A201	polarite T85 positif
+A202	polarite T38 positif
+A203	polarite T40 positif
+A204	polarite T42 positif
+A205	polarite T44 positif
+A206	polarite T46 positif
+A207	polarite T66 positif
+A208	polarite T48 positif
+A209	polarite T49 positif
+A210	polarite T52 positif
+A211	polarite T53 negatif
+A212	polarite T64 negatif
+A213	polarite T63 negatif
+A214	polarite T89 positif
+A215	polarite T73 positif
+A216	polarite T54 negatif
+A217	polarite T56 negatif
+A218	polarite T55 negatif
+A219	polarite T74 positif
+A220	polarite T57 positif
+A221	polarite T75 positif
+A222	polarite T59 negatif
+A223	polarite T20 positif

@@ -1,0 +1,161 @@
+T1	ABSENCE 0 7	房间 有点 小
+A1	theme T1 equipement
+T2	INFERENCE 8 15	需要 现金支付
+A2	theme T2 equipement
+A3	logique T2 oui
+T3	INFERENCE 16 35	位置 不错 ， 离 里昂 车站 很 近
+A4	lexicale T3 oui
+A5	theme T3 localisation
+A6	logique T3 oui
+T4	ABSENCE 16 23	位置 不错 ，
+A7	theme T4 localisation
+T5	INFERENCE 24 35	离 里昂 车站 很 近
+A8	pragmatique T5 oui
+A9	lexicale T5 oui
+A10	theme T5 localisation
+A11	logique T5 oui
+T6	INFERENCE 26 31	里昂 车站
+A12	lexicale T6 oui
+A13	theme T6 localisation
+T7	INFERENCE 36 79	床 比较 烂 ， 快 散架 的 状态 ， 床 很脏 ， 没有 床单 被罩 的 感觉 。
+A14	theme T7 equipement
+T8	INFERENCE 80 94	没有 可 锁起 的 柜子 。
+A15	theme T8 equipement
+T9	UNCERTAINE 95 110	独立 卫生间 ， 四 人间 。
+T10	INFERENCE 111 124	在 巴黎 很 便宜 了 。
+A17	pragmatique T10 oui
+A19	theme T10 prix
+T12	INFERENCE 125 139	省钱 的 人 凑 活 住 吧
+A21	theme T12 general
+A22	logique T12 oui
+T13	ABSENCE 140 151	地理位置 超级 好 ！
+A23	theme T13 localisation
+T14	INFERENCE 152 167	在 火车站 出门 100米 。
+A24	theme T14 localisation
+A25	logique T14 oui
+T15	INFERENCE 168 190	安保 工作 做得好 ， 可以 借 吹风机 。
+A26	theme T15 mixte
+A27	logique T15 oui
+T16	ABSENCE 168 179	安保 工作 做得好 ，
+A28	theme T16 securite
+T17	INFERENCE 180 190	可以 借 吹风机 。
+A29	theme T17 equipement
+A30	logique T17 oui
+T18	ABSENCE 191 208	good   location ！
+A31	theme T18 localisation
+T19	ABSENCE 209 223	非常 便利 的 地理位置 。
+A32	theme T19 localisation
+T20	INFERENCE 224 268	住 的 是 大床房 ， 沐浴 的 地方 比 前两天 的 双床房 稍微 舒适 了 一点 。
+A33	theme T20 equipement
+A34	logique T20 oui
+T21	UNCERTAINE 224 235	住 的 是 大床房 ，
+T22	INFERENCE 236 268	沐浴 的 地方 比 前两天 的 双床房 稍微 舒适 了 一点 。
+A35	theme T22 equipement
+A36	logique T22 oui
+T23	INFERENCE 269 307	但是 卫生间 有点 小 ， 坐 厕 都 是 缩 在 洗手盆 边 边上 的 。
+A37	theme T23 equipement
+A38	logique T23 oui
+T24	ABSENCE 269 282	但是 卫生间 有点 小 ，
+A39	theme T24 equipement
+T25	INFERENCE 283 307	坐 厕 都 是 缩 在 洗手盆 边 边上 的 。
+A40	theme T25 equipement
+A41	logique T25 oui
+T26	INFERENCE 308 435	14： 00check   in   说 房间 没 整理 好 ， 行李 寄存 在 那 ， 傍晚 18： 00左右 回去 房间 是 好 了 ， 行李 还 在 行李房 没有 帮 我们 放到 房间 去 ， 这 跟 其它 酒店 一 对比 真的 就 令人 失望 了
+A42	enonciative T26 oui
+A43	theme T26 qualiteService
+A44	logique T26 oui
+T27	INFERENCE 308 340	14： 00check   in   说 房间 没 整理 好 ，
+T28	UNCERTAINE 341 352	行李 寄存 在 那 ，
+T29	UNCERTAINE 353 378	傍晚 18： 00左右 回去 房间 是 好 了 ，
+T30	INFERENCE 379 407	行李 还 在 行李房 没有 帮 我们 放到 房间 去 ，
+A45	enonciative T30 oui
+A46	theme T30 qualiteService
+A47	logique T30 oui
+T31	INFERENCE 408 435	这 跟 其它 酒店 一 对比 真的 就 令人 失望 了
+A48	enonciative T31 oui
+A49	theme T31 general
+A50	logique T31 oui
+T32	INFERENCE 436 463	浴室 设施 有待 改善 ， 淋雨 水管 有 漏水 现象
+A51	theme T32 equipement
+A52	logique T32 oui
+T33	INFERENCE 436 449	浴室 设施 有待 改善 ，
+A54	theme T33 equipement
+A55	logique T33 oui
+T34	INFERENCE 450 463	淋雨 水管 有 漏水 现象
+A56	theme T34 equipement
+T35	INFERENCE 464 485	浴室 只有 三 楼 有   不是 很 方便
+A57	theme T35 equipement
+A58	logique T35 oui
+A59	logique T7 oui
+T36	ABSENCE 36 44	床 比较 烂 ，
+A60	theme T36 equipement
+T37	UNCERTAINE 45 56	快 散架 的 状态 ，
+T38	ABSENCE 57 63	床 很脏 ，
+A61	theme T38 equipement
+T39	INFERENCE 64 79	没有 床单 被罩 的 感觉 。
+A62	theme T39 equipement
+A63	logique T39 oui
+A64	polarite T1 negatif
+A65	polarite T2 negatif
+A66	polarite T3 positif
+A67	polarite T4 positif
+A68	polarite T5 positif
+A69	polarite T6 neutre
+A70	polarite T7 negatif
+A71	polarite T36 negatif
+A72	polarite T38 negatif
+A73	polarite T39 negatif
+A74	polarite T8 negatif
+A75	polarite T10 positif
+A77	polarite T12 neutre
+A78	polarite T13 positif
+A79	polarite T14 positif
+A80	polarite T15 positif
+A81	polarite T16 positif
+A82	polarite T17 positif
+A83	polarite T18 positif
+A84	polarite T19 positif
+A85	polarite T20 positif
+A86	polarite T22 positif
+A87	polarite T23 negatif
+A88	polarite T24 negatif
+A89	polarite T25 negatif
+A90	polarite T26 negatif
+A91	polarite T30 negatif
+A92	polarite T31 negatif
+A93	polarite T32 negatif
+A94	polarite T33 negatif
+A95	polarite T34 negatif
+A96	polarite T35 negatif
+A16	pragmatique T8 oui
+A53	theme T27 qualiteService
+A97	polarite T27 negatif
+A98	logique T27 oui
+A99	pragmatique T2 oui
+A100	pragmatique T3 oui
+T11	INFERENCE 140 167	地理位置 超级 好 ！ 在 火车站 出门 100米 。
+A18	lexicale T11 oui
+A20	theme T11 localisation
+A76	polarite T11 positif
+A102	logique T11 oui
+A103	lexicale T14 oui
+T40	INFERENCE 154 157	火车站
+A104	lexicale T40 oui
+A105	theme T40 localisation
+A106	polarite T40 neutre
+A107	lexicale T15 oui
+A108	pragmatique T15 oui
+T41	INFERENCE 185 188	吹风机
+A109	lexicale T41 oui
+A110	theme T41 equipement
+A111	polarite T41 neutre
+A112	enonciative T20 oui
+A113	enonciative T22 oui
+A115	discursive T26 oui
+A116	logique T34 oui
+T42	INFERENCE 464 477	浴室 只有 三 楼 有  
+A117	theme T42 equipement
+A118	polarite T42 negatif
+A119	logique T42 oui
+T43	UNCERTAINE 478 485	不是 很 方便
+A120	enonciative T10 oui

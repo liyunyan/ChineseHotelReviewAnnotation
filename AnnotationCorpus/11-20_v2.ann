@@ -1,0 +1,379 @@
+T1	INFERENCE 0 28	一 整圈 都 是 房间 ， 总是 找 房间 找到 晕 。
+A1	enonciative T1
+A2	theme T1 equipement
+A3	logique T1
+T2	UNCERTAINE 0 13	一 整圈 都 是 房间 ，
+T3	INFERENCE 14 28	总是 找 房间 找到 晕 。
+A4	theme T3 equipement
+A5	logique T3
+T4	INFERENCE 29 77	房间 狭窄 ， 内置 淋浴 简陋 ， 水温 低 （ 据说 是 热水器 坏 了 就要 修理 ） 。
+A7	theme T4 equipement
+T5	ABSENCE 29 36	房间 狭窄 ，
+A8	theme T5 equipement
+T6	ABSENCE 37 47	内置 淋浴 简陋 ，
+A9	theme T6 equipement
+T7	INFERENCE 48 77	水温 低 （ 据说 是 热水器 坏 了 就要 修理 ） 。
+A10	theme T7 equipement
+T8	INFERENCE 78 93	房间 只有 一个 电源接口 。
+A11	enonciative T8
+A12	theme T8 equipement
+T9	INFERENCE 94 142	旅馆 周遭 环境 较差 ， 移民 很多 ， 让 人 没有 安全感 ， 建议 天黑 之前 回来 。
+A15	pragmatique T9
+A16	theme T9 securite
+A17	logique T9
+T10	ABSENCE 94 107	旅馆 周遭 环境 较差 ，
+A18	theme T10 securite
+T11	INFERENCE 108 115	移民 很多 ，
+A19	pragmatique T11
+A20	theme T11 securite
+T12	UNCERTAINE 116 128	让 人 没有 安全感 ，
+T13	UNCERTAINE 129 142	建议 天黑 之前 回来 。
+T14	INFERENCE 143 172	地理位置 很 方便 ， 离 公交 和 地铁 都 很 近 。
+A22	theme T14 localisation
+A23	logique T14
+T15	ABSENCE 143 154	地理位置 很 方便 ，
+A24	theme T15 localisation
+T16	INFERENCE 155 172	离 公交 和 地铁 都 很 近 。
+A25	theme T16 localisation
+A26	logique T16
+A27	lexicale T14
+A28	lexicale T16
+T17	INFERENCE 157 159	公交
+A29	lexicale T17
+T18	INFERENCE 162 164	地铁
+A30	lexicale T18
+A31	theme T18 localisation
+A32	theme T17 localisation
+T19	INFERENCE 173 231	房间 也 很 干净 ， 就是 太小 了 ， 还有 早餐 是 送到 房间 的 ， 不如 在 餐厅 吃 选择 更 多 。
+A34	theme T19 mixte
+A35	logique T19
+T20	ABSENCE 173 184	房间 也 很 干净 ，
+A36	theme T20 proprete
+T21	UNCERTAINE 185 194	就是 太小 了 ，
+T22	INFERENCE 195 212	还有 早餐 是 送到 房间 的 ，
+A37	theme T22 qualiteService
+T23	UNCERTAINE 213 231	不如 在 餐厅 吃 选择 更 多 。
+T24	INFERENCE 232 328	一个 东南亚 裔 的 工作人员 ， 在 我 check   out   的 时候 ， 拖拖拉拉 用 了 快 40分钟 ， 害 我 差点 没 赶上去 机场 的 shuttle   bus ! !
+A43	lexicale T24
+A44	theme T24 personnel
+A45	logique T24
+T25	UNCERTAINE 232 249	一个 东南亚 裔 的 工作人员 ，
+T26	UNCERTAINE 250 274	在 我 check   out   的 时候 ，
+T27	UNCERTAINE 275 292	拖拖拉拉 用 了 快 40分钟 ，
+T28	UNCERTAINE 293 328	害 我 差点 没 赶上去 机场 的 shuttle   bus ! !
+T30	INFERENCE 329 462	付 房费 的 时候 ， 死活 刷 不了 我 的 master 的 卡 ， 后来 非 逼 着 我 去 atm 用 信用卡 ， 取现 。 后来 一 查帐 这个 多 支付 了 好多钱 … … 我 的 信用卡 在 哪里 都 可以 正常 使用 ， 唯独 你家 用 不了 … …
+A46	theme T30 qualiteService
+A47	logique T30
+T29	UNCERTAINE 329 340	付 房费 的 时候 ，
+T31	INFERENCE 341 365	死活 刷 不了 我 的 master 的 卡 ，
+T32	UNCERTAINE 366 390	后来 非 逼 着 我 去 atm 用 信用卡 ，
+T33	UNCERTAINE 391 395	取现 。
+T34	UNCERTAINE 396 421	后来 一 查帐 这个 多 支付 了 好多钱 … …
+T35	UNCERTAINE 422 447	我 的 信用卡 在 哪里 都 可以 正常 使用 ，
+T36	UNCERTAINE 448 462	唯独 你家 用 不了 … …
+T38	INFERENCE 463 658	另 一件 事 ， 也 很 让 我 上火 ， 第一次 刷 预授权 的 时候 ， 刷 了 我 两次 175 ， 几次 和 店家 沟通 ， 他们 都 说 取消 第一次 的 。 经过 我 多次 和 银行 确定 ， 事实上 证明 已经 预授权 了 两次 。 booking 客服 介入 后 ， 店家 也 承认 误操作 了 两次 。 特别 不 理解 店家 为啥 不能 和 我 承认 是 他们 的 错 。
+A48	theme T38 qualiteService
+A49	discursive T38
+T37	INFERENCE 659 715	总之 ， 这 是 在 booking 上 预定 酒店 最 不 愉快 的 经历 … … 不 讲 诚信 的 商家 …
+A50	theme T37 general
+A51	logique T37
+T39	UNCERTAINE 659 663	总之 ，
+T40	INFERENCE 664 701	这 是 在 booking 上 预定 酒店 最 不 愉快 的 经历 … …
+A52	theme T40 general
+A53	logique T40
+T41	ABSENCE 702 715	不 讲 诚信 的 商家 …
+A54	theme T41 general
+T42	INFERENCE 716 774	超 好 的 地理位置 ，   服务 也 超 好 ～ ～   性价比 超高 的 ， 去 巴黎 可以 选择 这里 ～ ～
+A55	theme T42 mixte
+T43	INFERENCE 775 800	出行 方便 ， 转角 走 几步 就是 香榭丽舍大街
+A56	pragmatique T43
+A57	lexicale T43
+A58	theme T43 localisation
+T44	ABSENCE 775 782	出行 方便 ，
+A59	theme T44 localisation
+T45	INFERENCE 783 800	转角 走 几步 就是 香榭丽舍大街
+A60	pragmatique T45
+A61	lexicale T45
+A62	theme T45 localisation
+T46	INFERENCE 794 800	香榭丽舍大街
+A63	lexicale T46
+A64	theme T46 localisation
+T47	INFERENCE 801 837	但是 没有 提供 牙刷 和 拖鞋 ， 两张 单人床 之间 没有 间隔 。
+A66	theme T47 equipement
+A67	logique T47
+T48	INFERENCE 801 819	但是 没有 提供 牙刷 和 拖鞋 ，
+A68	theme T48 equipement
+T49	INFERENCE 820 837	两张 单人床 之间 没有 间隔 。
+A70	theme T49 equipement
+T50	INFERENCE 838 886	离 地铁站 很 近 ， 安全 系统 不错 ， 进 大门 和 地铁 需 刷 两次 卡 （ 钥匙 ）
+A72	theme T50 mixte
+A73	logique T50
+T51	INFERENCE 838 849	离 地铁站 很 近 ，
+A74	theme T51 localisation
+T52	ABSENCE 850 860	安全 系统 不错 ，
+A75	theme T52 securite
+T53	INFERENCE 861 886	进 大门 和 地铁 需 刷 两次 卡 （ 钥匙 ）
+T54	INFERENCE 887 949	在 第 13区 ， 华人 区 ， 周边 超市 买 水果 都 很 方便 ， 楼下 有 很多 中餐馆 ， 离 地铁站 也 近 ！
+A76	pragmatique T54
+A77	lexicale T54
+A78	theme T54 localisation
+A79	logique T54
+T55	INFERENCE 887 896	在 第 13区 ，
+A80	lexicale T55
+A81	theme T55 localisation
+T56	INFERENCE 889 894	第 13区
+A82	lexicale T56
+A83	theme T56 localisation
+T57	INFERENCE 897 901	华人 区
+A84	lexicale T57
+A85	theme T57 localisation
+T58	INFERENCE 904 923	周边 超市 买 水果 都 很 方便 ，
+A86	theme T58 localisation
+A87	logique T58
+T59	INFERENCE 924 937	楼下 有 很多 中餐馆 ，
+A88	theme T59 localisation
+T60	INFERENCE 938 949	离 地铁站 也 近 ！
+A90	theme T60 localisation
+A91	logique T60
+T61	INFERENCE 950 997	卫生 干净 ， 地点 非常 优越 ， 电梯 很大 ， 有 阳台 ， 插头 床边 就 有 … …
+A92	theme T61 mixte
+T62	ABSENCE 950 957	卫生 干净 ，
+T63	ABSENCE 958 968	地点 非常 优越 ，
+A94	theme T63 localisation
+T64	INFERENCE 969 976	电梯 很大 ，
+A95	theme T64 equipement
+T65	INFERENCE 977 983	有 阳台 ，
+A96	theme T65 equipement
+T66	INFERENCE 984 997	插头 床边 就 有 … …
+A97	theme T66 equipement
+T69	INFERENCE 1010 1071	酒店 的 地理位置 特别 棒 ， 服务 人员 也 很 nice ， 下次 来 巴黎 还 会 选择 住 在 这里 哦 ~ ~
+A98	theme T69 mixte
+T70	ABSENCE 1010 1026	酒店 的 地理位置 特别 棒 ，
+A99	theme T70 localisation
+T71	ABSENCE 1027 1043	服务 人员 也 很 nice ，
+A100	theme T71 personnel
+T72	INFERENCE 1044 1071	下次 来 巴黎 还 会 选择 住 在 这里 哦 ~ ~
+A101	theme T72 general
+A102	logique T72
+A103	logique T69
+A104	lexicale T11
+T73	INFERENCE 108 110	移民
+A105	lexicale T73
+A106	theme T73 securite
+T74	UNCERTAINE 463 471	另 一件 事 ，
+T75	UNCERTAINE 472 484	也 很 让 我 上火 ，
+T76	UNCERTAINE 485 501	第一次 刷 预授权 的 时候 ，
+T77	UNCERTAINE 502 516	刷 了 我 两次 175 ，
+T78	UNCERTAINE 517 529	几次 和 店家 沟通 ，
+T79	UNCERTAINE 530 547	他们 都 说 取消 第一次 的 。
+T80	UNCERTAINE 548 565	经过 我 多次 和 银行 确定 ，
+T81	UNCERTAINE 566 586	事实上 证明 已经 预授权 了 两次 。
+T82	UNCERTAINE 587 604	booking 客服 介入 后 ，
+T83	INFERENCE 605 623	店家 也 承认 误操作 了 两次 。
+T84	INFERENCE 624 658	特别 不 理解 店家 为啥 不能 和 我 承认 是 他们 的 错 。
+A107	enonciative T3
+A14	logique T7
+A6	logique T4
+A13	pragmatique T8
+A109	lexicale T8
+T85	INFERENCE 87 91	电源接口
+A110	lexicale T85
+A111	theme T85 equipement
+A112	lexicale T9
+A113	discursive T9
+A33	pragmatique T19
+A38	pragmatique T22
+A41	pragmatique T24
+A42	discursive T24
+T86	INFERENCE 235 240	东南亚 裔
+A115	lexicale T86
+A116	theme T86 personnel
+A117	enonciative T24
+T87	INFERENCE 311 324	shuttle   bus
+A118	lexicale T87
+A119	theme T87 equipement
+A120	pragmatique T30
+A121	discursive T30
+A122	pragmatique T38
+T88	INFERENCE 329 395	付 房费 的 时候 ， 死活 刷 不了 我 的 master 的 卡 ， 后来 非 逼 着 我 去 atm 用 信用卡 ， 取现 。
+A123	pragmatique T88
+A124	theme T88 qualiteService
+A125	enonciative T30
+A126	discursive T88
+A127	pragmatique T31
+A128	theme T31 equipement
+A129	enonciative T31
+A130	enonciative T88
+T89	INFERENCE 422 462	我 的 信用卡 在 哪里 都 可以 正常 使用 ， 唯独 你家 用 不了 … …
+A131	enonciative T89
+A132	theme T89 equipement
+A133	logique T89
+A138	logique T38
+T90	UNCERTAINE 463 547	另 一件 事 ， 也 很 让 我 上火 ， 第一次 刷 预授权 的 时候 ， 刷 了 我 两次 175 ， 几次 和 店家 沟通 ， 他们 都 说 取消 第一次 的 。
+T91	UNCERTAINE 548 586	经过 我 多次 和 银行 确定 ， 事实上 证明 已经 预授权 了 两次 。
+T92	INFERENCE 587 623	booking 客服 介入 后 ， 店家 也 承认 误操作 了 两次 。
+A144	pragmatique T92
+A145	theme T92 qualiteService
+A146	logique T92
+A147	theme T83 personnel
+A148	logique T83
+A149	enonciative T84
+A150	theme T84 personnel
+A151	logique T84
+A152	enonciative T38
+A153	pragmatique T37
+A154	enonciative T40
+A155	enonciative T37
+T93	INFERENCE 659 701	总之 ， 这 是 在 booking 上 预定 酒店 最 不 愉快 的 经历 … …
+A156	enonciative T93
+A157	pragmatique T93
+A158	theme T93 general
+A159	logique T93
+A160	pragmatique T40
+A161	logique T42
+T94	ABSENCE 716 730	超 好 的 地理位置 ，  
+A162	theme T94 localisation
+T95	ABSENCE 731 745	服务 也 超 好 ～ ～  
+A163	theme T95 qualiteService
+T96	ABSENCE 746 756	性价比 超高 的 ，
+A164	theme T96 general
+T97	INFERENCE 757 774	去 巴黎 可以 选择 这里 ～ ～
+A165	theme T97 general
+A166	logique T97
+A65	pragmatique T47
+A167	lexicale T47
+A69	pragmatique T48
+A168	lexicale T48
+T98	INFERENCE 810 812	牙刷
+A169	lexicale T98
+A170	theme T98 personnel
+T99	INFERENCE 815 817	拖鞋
+A171	lexicale T99
+A172	theme T99 equipement
+A173	pragmatique T49
+A174	pragmatique T50
+A175	lexicale T50
+A176	lexicale T51
+A177	logique T51
+T100	INFERENCE 840 843	地铁站
+A178	lexicale T100
+A179	theme T100 localisation
+A180	pragmatique T53
+A181	theme T53 securite
+T101	INFERENCE 907 909	超市
+A71	lexicale T101
+A182	theme T101 localisation
+T102	INFERENCE 932 935	中餐馆
+A183	lexicale T102
+A184	theme T102 localisation
+T103	INFERENCE 940 943	地铁站
+A185	lexicale T103
+A186	theme T103 localisation
+A187	pragmatique T55
+T104	UNCERTAINE 897 903	华人 区 ，
+A189	lexicale T58
+A89	pragmatique T59
+A190	lexicale T59
+A191	lexicale T60
+A192	pragmatique T61
+A93	lexicale T61
+A193	theme T62 proprete
+A194	pragmatique T64
+A195	lexicale T64
+T105	INFERENCE 969 971	电梯
+A196	lexicale T105
+A197	theme T105 equipement
+A198	pragmatique T65
+A199	lexicale T65
+T106	INFERENCE 979 981	阳台
+A200	lexicale T106
+A201	theme T106 equipement
+A202	pragmatique T66
+A203	lexicale T66
+T107	INFERENCE 984 986	插头
+A204	lexicale T107
+A205	theme T107 equipement
+T108	ABSENCE 998 1009	总之 ， 非常 好 ！
+A206	theme T108 general
+A207	enonciative T69
+A208	enonciative T97
+A209	enonciative T72
+A210	enonciative T42
+A21	polarite T1 negatif
+A39	polarite T3 negatif
+A40	polarite T6 negatif
+A108	polarite T5 negatif
+A114	polarite T4 negatif
+A134	polarite T7 negatif
+A135	polarite T8 negatif
+A136	polarite T85 positif
+A137	polarite T9 negatif
+A139	polarite T11 neutre
+A140	polarite T73 neutre
+A141	polarite T10 negatif
+A142	polarite T14 positif
+A143	polarite T16 positif
+A188	polarite T15 positif
+A211	polarite T18 positif
+A212	polarite T17 positif
+A213	polarite T20 positif
+A214	polarite T19 negatif
+A215	polarite T22 neutre
+A216	polarite T86 neutre
+A217	polarite T24 negatif
+A218	polarite T87 positif
+A219	polarite T30 negatif
+A220	polarite T88 negatif
+A221	polarite T31 negatif
+A222	polarite T89 negatif
+A223	polarite T38 negatif
+A224	polarite T92 negatif
+A225	polarite T83 negatif
+A226	polarite T84 negatif
+A227	polarite T37 negatif
+A228	polarite T93 negatif
+A229	polarite T40 negatif
+A230	polarite T41 negatif
+A231	polarite T42 positif
+A232	polarite T97 positif
+A233	polarite T43 positif
+A234	polarite T45 positif
+A235	polarite T46 positif
+A236	polarite T44 positif
+A237	polarite T47 negatif
+A238	polarite T48 negatif
+A239	polarite T49 negatif
+A240	polarite T99 positif
+A241	polarite T98 positif
+A242	polarite T50 positif
+A243	polarite T51 positif
+A244	polarite T100 positif
+A245	polarite T52 positif
+A246	polarite T53 neutre
+A247	polarite T54 positif
+A248	polarite T58 positif
+A249	polarite T55 neutre
+A250	polarite T56 neutre
+A251	polarite T57 positif
+A252	polarite T101 positif
+A253	polarite T59 positif
+A254	polarite T60 positif
+A255	polarite T103 positif
+A256	polarite T102 positif
+A257	polarite T61 positif
+A258	polarite T66 positif
+A259	polarite T64 positif
+A260	polarite T65 positif
+A261	polarite T107 positif
+A262	polarite T106 positif
+A263	polarite T105 positif
+A264	polarite T63 positif
+A265	polarite T62 positif
+A266	polarite T108 positif
+A267	polarite T69 positif
+A268	polarite T70 positif
+A269	polarite T71 positif
+A270	polarite T72 positif
+A271	polarite T94 positif
+A272	polarite T95 positif
+A273	polarite T96 positif

@@ -1,0 +1,190 @@
+T1	ABSENCE 0 9	房间 隔音 不太好
+A1	theme T1 equipement
+A2	polarite T1 negatif
+T2	ABSENCE 10 32	服务 人员 态度 非常 好 ， 很 用心 。
+A3	theme T2 personnel
+A4	polarite T2 positif
+T3	INFERENCE 33 157	床垫 软 到 睡觉 非常 不 舒服 ， 起来 身体 会 酸痛 ， 室内 取暖 设备 看来 有些 坏 了 ， 不能 调 温度 ， 而且 还 在 漏水 ， 没有 及时 维修 ， 睡觉 的 毯子 粘 满 毛发 ， 有 枕头套 没 换 新 ， 有 异味 。
+A5	theme T3 mixte
+A6	polarite T3 negatif
+A7	logique T3 oui
+T4	INFERENCE 33 52	床垫 软 到 睡觉 非常 不 舒服 ，
+A8	theme T4 equipement
+A9	polarite T4 negatif
+A10	logique T4 oui
+T5	UNCERTAINE 53 65	起来 身体 会 酸痛 ，
+T6	INFERENCE 66 86	室内 取暖 设备 看来 有些 坏 了 ，
+A11	theme T6 equipement
+A12	polarite T6 negatif
+T7	UNCERTAINE 87 96	不能 调 温度 ，
+T8	UNCERTAINE 97 108	而且 还 在 漏水 ，
+T9	INFERENCE 109 119	没有 及时 维修 ，
+T10	INFERENCE 120 136	睡觉 的 毯子 粘 满 毛发 ，
+A13	theme T10 proprete
+A14	polarite T10 negatif
+A15	logique T10 oui
+T11	INFERENCE 137 150	有 枕头套 没 换 新 ，
+A16	theme T11 proprete
+A17	polarite T11 negatif
+A18	logique T11 oui
+T12	UNCERTAINE 151 155	有 异味
+T14	INFERENCE 158 167	没有 wifi ，
+A24	pragmatique T14 oui
+A25	lexicale T14 oui
+A26	theme T14 equipement
+A27	polarite T14 negatif
+A28	logique T14 oui
+T15	INFERENCE 168 191	取 钥匙 和 还 钥匙 在 另 一个 地点 ，
+A29	pragmatique T15 oui
+A30	theme T15 qualiteService
+A31	polarite T15 negatif
+A32	logique T15 oui
+T16	INFERENCE 192 286	单程 需要 坐地铁 30分钟 沙发床 的 脚 是 坏 的 4个人 住 4晚 只 给 了 一卷 厕 纸 （ 还 非常 不好 找 ） 没有 房间 号 （ 门上 没有 ， 也 没有 告知 ） ，
+A33	pragmatique T16 oui
+A34	lexicale T16 oui
+A35	theme T16 mixte
+A36	polarite T16 negatif
+A37	logique T16 oui
+A38	enonciative T16 oui
+T17	INFERENCE 199 201	地铁
+A40	lexicale T17 oui
+A41	theme T17 localisation
+A42	polarite T17 positif
+T18	INFERENCE 311 332	跟 乡下 的 七天 连锁 差别 不 大 。
+A43	pragmatique T18 oui
+A44	theme T18 general
+A45	polarite T18 negatif
+A46	logique T18 oui
+T20	ABSENCE 333 343	酒店 位置 不错 ，
+A52	theme T20 localisation
+A53	polarite T20 positif
+T21	ABSENCE 344 350	很 好找 ，
+A54	theme T21 localisation
+A55	polarite T21 positif
+T22	INFERENCE 351 363	就 在 凯旋门 边上 ，
+A56	pragmatique T22 oui
+A57	lexicale T22 oui
+A58	theme T22 localisation
+A59	polarite T22 positif
+A60	logique T22 oui
+T23	INFERENCE 355 358	凯旋门
+A61	lexicale T23 oui
+A62	theme T23 localisation
+A63	polarite T23 positif
+T24	INFERENCE 364 381	距离 香榭丽舍 大道 非常 近 ；
+A64	pragmatique T24 oui
+A65	lexicale T24 oui
+A66	theme T24 localisation
+A67	polarite T24 positif
+A68	logique T24 oui
+T25	INFERENCE 367 374	香榭丽舍 大道
+A69	lexicale T25 oui
+A70	theme T25 localisation
+A71	polarite T25 positif
+T27	INFERENCE 382 394	距离 地铁站 很 近 ，
+A77	lexicale T27 oui
+A78	theme T27 localisation
+A79	polarite T27 positif
+A80	logique T27 oui
+T28	INFERENCE 385 388	地铁站
+A81	lexicale T28 oui
+A82	theme T28 localisation
+A83	polarite T28 positif
+T29	INFERENCE 395 427	有 RER   A ／ 1/ 2/ 6/ 12等 地铁 线路 ；
+A84	pragmatique T29 oui
+A85	lexicale T29 oui
+A86	theme T29 localisation
+A87	polarite T29 positif
+A88	logique T29 oui
+T30	INFERENCE 397 404	RER   A
+A89	lexicale T30 oui
+A90	theme T30 localisation
+A91	polarite T30 positif
+T31	INFERENCE 420 422	地铁
+A92	lexicale T31 oui
+A93	theme T31 localisation
+A94	polarite T31 positif
+T33	ABSENCE 428 436	床 很 舒服 ，
+A98	theme T33 equipement
+A99	polarite T33 positif
+T34	INFERENCE 437 449	很 适合 旅人 休息 ；
+A100	theme T34 general
+A101	polarite T34 positif
+A102	logique T34 oui
+T36	INFERENCE 465 468	面包店
+A108	lexicale T36 oui
+A109	theme T36 localisation
+A110	polarite T36 positif
+T37	ABSENCE 469 485	房间 小 ， 早餐 品种 较 少
+A111	theme T37 equipement
+A112	polarite T37 negatif
+T38	INFERENCE 486 516	地理位置 好 ， 近 地铁站 ， 旁边 是 酒吧 美食街 。
+A113	lexicale T38 oui
+A114	theme T38 localisation
+A115	polarite T38 positif
+A116	logique T38 oui
+T39	ABSENCE 486 494	地理位置 好 ，
+A117	theme T39 localisation
+A118	polarite T39 positif
+T40	INFERENCE 495 502	近 地铁站 ，
+A119	theme T40 localisation
+A120	polarite T40 positif
+A121	logique T40 oui
+T41	INFERENCE 503 516	旁边 是 酒吧 美食街 。
+A122	theme T41 localisation
+A123	polarite T41 positif
+A124	logique T41 oui
+A125	pragmatique T4 oui
+A126	theme T9 qualiteService
+A127	polarite T9 positif
+A128	logique T9 oui
+T42	INFERENCE 161 165	wifi
+A129	lexicale T42 oui
+A130	theme T42 equipement
+A131	polarite T42 positif
+T13	UNCERTAINE 287 310	所以 不能 在 楼下 按 门铃 让 同伴 开门
+T43	INFERENCE 158 310	没有 wifi ， 取 钥匙 和 还 钥匙 在 另 一个 地点 ， 单程 需要 坐地铁 30分钟 沙发床 的 脚 是 坏 的 4个人 住 4晚 只 给 了 一卷 厕 纸 （ 还 非常 不好 找 ） 没有 房间 号 （ 门上 没有 ， 也 没有 告知 ） ， 所以 不能 在 楼下 按 门铃 让 同伴 开门
+A19	enonciative T43 oui
+A20	pragmatique T43 oui
+A21	lexicale T43 oui
+A22	theme T43 mixte
+A23	polarite T43 negatif
+A39	logique T43 oui
+T44	INFERENCE 333 468	酒店 位置 不错 ， 很 好找 ， 就 在 凯旋门 边上 ， 距离 香榭丽舍 大道 非常 近 ； 距离 地铁站 很 近 ， 有 RER   A ／ 1/ 2/ 6/ 12等 地铁 线路 ； 床 很 舒服 ， 很 适合 旅人 休息 ； 周围 有 超市 ， 餐厅 ， 面包店
+A132	pragmatique T44 oui
+A133	lexicale T44 oui
+A134	theme T44 mixte
+A135	polarite T44 positif
+A136	logique T44 oui
+T19	INFERENCE 450 459	周围 有 超市 ，
+A47	theme T19 localisation
+A48	polarite T19 positif
+A49	logique T19 oui
+T26	UNCERTAINE 460 464	餐厅 ，
+A72	lexicale T40 oui
+T35	INFERENCE 497 500	地铁站
+A73	lexicale T35 oui
+A74	theme T35 localisation
+A75	polarite T35 positif
+T45	INFERENCE 455 457	超市
+A76	lexicale T45 oui
+A95	theme T45 localisation
+A96	polarite T45 positif
+A97	lexicale T19 oui
+T46	INFERENCE 69 74	取暖 设备
+A103	lexicale T46 oui
+A104	theme T46 equipement
+A105	polarite T46 positif
+T47	INFERENCE 207 210	沙发床
+A106	theme T47 equipement
+A107	polarite T47 neutre
+T48	INFERENCE 511 514	美食街
+A137	lexicale T48 oui
+A138	theme T48 localisation
+A139	polarite T48 positif
+A50	lexicale T6
+A140	logique T6
+T32	INFERENCE 460 462	餐厅
+A51	lexicale T32
+A141	theme T32 localisation
+A142	polarite T32 positif

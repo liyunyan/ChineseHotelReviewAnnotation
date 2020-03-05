@@ -1,0 +1,151 @@
+T1	INFERENCE 0 46	房间 很小 ， 卫生 也 一般般 ， 早餐 就是 一杯 咖啡 一杯 橙汁 和 两块 面包 。
+A1	enonciative T1 oui
+A2	theme T1 mixte
+A3	logique T1 oui
+T2	ABSENCE 0 7	房间 很小 ，
+A4	theme T2 equipement
+T3	ABSENCE 8 18	卫生 也 一般般 ，
+A5	theme T3 proprete
+T4	INFERENCE 19 46	早餐 就是 一杯 咖啡 一杯 橙汁 和 两块 面包 。
+A6	enonciative T4 oui
+A7	theme T4 equipement
+A8	logique T4 oui
+T5	INFERENCE 47 80	房间内 wifi 几乎 无法 使用 ， 刷 门 卡 很 不好 使用
+A9	theme T5 equipement
+A11	lexicale T5 oui
+T6	INFERENCE 47 66	房间内 wifi 几乎 无法 使用 ，
+A12	lexicale T6 oui
+A13	theme T6 equipement
+T7	ABSENCE 67 80	刷 门 卡 很 不好 使用
+A15	theme T7 equipement
+T8	INFERENCE 81 95	前台 需要 更 多 微笑 。
+A17	theme T8 personnel
+A18	logique T8 oui
+T9	INFERENCE 96 177	退房 的 那天 早晨 电梯 居然 一直 坏 的 ， 也 没人管 ， 服务员 只是 摊 手 表示 无能为力 ， 我们 两个 女生 28 的 大箱子 就 那么 扛下来
+A19	enonciative T9 oui
+A20	theme T9 mixte
+T10	INFERENCE 96 121	退房 的 那天 早晨 电梯 居然 一直 坏 的 ，
+A22	enonciative T10 oui
+A23	theme T10 equipement
+T11	UNCERTAINE 122 129	也 没人管 ，
+T12	INFERENCE 130 150	服务员 只是 摊 手 表示 无能为力 ，
+T13	INFERENCE 151 177	我们 两个 女生 28 的 大箱子 就 那么 扛下来
+T15	INFERENCE 178 212	我 在 这 之前 从来 没有 住 过 这种 所谓 的 青年 旅社 ，
+T16	UNCERTAINE 213 230	这 一次 就是 想 尝试 一下 ，
+T17	ABSENCE 231 240	结果 还 不错 。
+T18	UNCERTAINE 241 256	虽然 和 酒店 比较 起来 ，
+T19	UNCERTAINE 257 272	算 得 上 比较 简陋 了 ，
+T20	ABSENCE 273 290	但是 胜在 什么 都 很 干净 。
+A28	theme T20 proprete
+T21	INFERENCE 291 317	有 住 一起 的 老外 可以 让 你 练习 口语 ！
+T22	ABSENCE 318 328	然后 就是 便宜 ！
+A29	theme T22 prix
+T25	UNCERTAINE 338 355	除了 同 旅舍 的 其他 旅客 ，
+T26	UNCERTAINE 356 368	还有 酒吧 的 声音 ，
+T27	UNCERTAINE 369 375	非常 吵 。
+T28	INFERENCE 376 386	充电 插头 很少 ，
+A36	theme T28 equipement
+T29	UNCERTAINE 387 404	也 不 在 床边 很 不 方便 。
+T30	UNCERTAINE 405 423	不是 缺点 但 旅客 可以 注意 ，
+T32	INFERENCE 437 462	从 M7大约 要 走 7~ 8分钟 的 上坡路 ，
+A37	pragmatique T32 oui
+A39	theme T32 localisation
+T24	INFERENCE 463 478	有 大 行李 者 不 推荐 。
+A33	theme T24 general
+A34	logique T24 oui
+T35	ABSENCE 479 502	比较 干净 ， 早餐 不错 ， 服务 也 不错
+A45	theme T35 mixte
+T36	ABSENCE 503 526	地理位置 ， 和 接待 的 老人 还 算 热情
+A47	theme T36 mixte
+T39	INFERENCE 527 541	太 不好 找 了 ！ ！ ！
+T40	ABSENCE 542 584	床 很 舒服 ， 赠送 的 小吃 很 丰富 ， 人员 很 热情 ， 地点 非常 方便
+A53	theme T40 mixte
+T41	INFERENCE 424 436	旅舍 在 上坡路 段 ，
+A54	theme T41 localisation
+A10	pragmatique T5 oui
+A14	pragmatique T6 oui
+T31	INFERENCE 51 55	wifi
+A57	lexicale T31 oui
+A58	theme T31 equipement
+A16	pragmatique T9 oui
+A21	lexicale T9 oui
+A24	pragmatique T10 oui
+A56	lexicale T10 oui
+T42	INFERENCE 107 109	电梯
+A59	lexicale T42 oui
+A60	theme T42 equipement
+A62	theme T12 personnel
+A64	enonciative T13 oui
+A65	theme T13 qualiteService
+A68	pragmatique T15 oui
+A70	theme T15 general
+A75	pragmatique T21 oui
+A77	theme T21 nouveau
+T45	INFERENCE 178 240	我 在 这 之前 从来 没有 住 过 这种 所谓 的 青年 旅社 ， 这 一次 就是 想 尝试 一下 ， 结果 还 不错 。
+A80	pragmatique T45 oui
+A82	theme T45 general
+T46	INFERENCE 241 290	虽然 和 酒店 比较 起来 ， 算 得 上 比较 简陋 了 ， 但是 胜在 什么 都 很 干净 。
+A83	enonciative T46 oui
+A84	theme T46 general
+A85	logique T46 oui
+T47	INFERENCE 329 375	隔音 等于零 ， 除了 同 旅舍 的 其他 旅客 ， 还有 酒吧 的 声音 ， 非常 吵 。
+A86	pragmatique T47 oui
+A88	theme T47 equipement
+T48	INFERENCE 376 404	充电 插头 很少 ， 也 不 在 床边 很 不 方便 。
+A89	pragmatique T48 oui
+A90	lexicale T48 oui
+A91	theme T48 equipement
+T34	INFERENCE 405 478	不是 缺点 但 旅客 可以 注意 ， 旅舍 在 上坡路 段 ， 从 M7大约 要 走 7~ 8分钟 的 上坡路 ， 有 大 行李 者 不 推荐 。
+A43	pragmatique T34 oui
+A92	theme T34 localisation
+A93	polarite T34 negatif
+A94	logique T34 oui
+T49	INFERENCE 329 337	隔音 等于零 ，
+A95	theme T49 equipement
+A96	polarite T49 negatif
+A97	logique T49 oui
+A98	polarite T2 negatif
+A99	polarite T1 negatif
+A100	polarite T3 negatif
+A101	polarite T4 negatif
+A102	polarite T5 negatif
+A103	polarite T6 negatif
+A104	polarite T31 positif
+A105	polarite T7 negatif
+A106	polarite T8 negatif
+A107	polarite T9 negatif
+A108	polarite T10 negatif
+A109	polarite T42 positif
+A111	polarite T13 negatif
+A112	polarite T45 positif
+A113	polarite T15 neutre
+A25	polarite T46 positif
+A27	polarite T20 positif
+A66	polarite T21 positif
+A67	polarite T22 positif
+A115	polarite T47 negatif
+A117	polarite T28 negatif
+A118	polarite T48 negatif
+A30	polarite T32 negatif
+A31	polarite T41 negatif
+A32	polarite T24 negatif
+A119	polarite T35 positif
+A120	polarite T36 positif
+A122	polarite T40 positif
+A61	polarite T12 negatif
+A63	logique T12 oui
+A69	theme T17 general
+A71	polarite T17 positif
+A72	logique T47 oui
+A74	enonciative T49 oui
+A76	logique T48 oui
+A78	pragmatique T28 oui
+A79	lexicale T28 oui
+T14	INFERENCE 376 381	充电 插头
+A81	lexicale T14 oui
+A87	theme T14 equipement
+A110	polarite T14 positif
+A38	pragmatique T41 oui
+A40	theme T39 localisation
+A44	polarite T39 negatif
+A46	logique T39 oui

@@ -1,0 +1,536 @@
+T1	UNCERTAINE 0 10	房间 大小 及 设施
+T2	INFERENCE 11 34	没有 热水壶   床单 不 太 舒服   粗糙
+A1	pragmatique T2 oui
+A2	lexicale T2 oui
+A3	theme T2 equipement
+A4	polarite T2 negatif
+A5	logique T2 oui
+T3	INFERENCE 11 19	没有 热水壶  
+A6	pragmatique T3 oui
+A7	lexicale T3 oui
+A8	theme T3 equipement
+A9	polarite T3 negatif
+A10	logique T3 oui
+T4	INFERENCE 14 17	热水壶
+A11	lexicale T4 oui
+A12	theme T4 equipement
+A13	polarite T4 positif
+T5	ABSENCE 20 31	床单 不 太 舒服  
+A14	theme T5 equipement
+A15	polarite T5 negatif
+T6	UNCERTAINE 32 34	粗糙
+T7	ABSENCE 35 53	位置 不错 ， 就是 房间 太小 了
+A16	theme T7 mixte
+A17	polarite T7 negatif
+T8	INFERENCE 54 71	如果 有 烧水壶 就 更好 了 。
+A18	enonciative T8 oui
+A19	pragmatique T8 oui
+A20	lexicale T8 oui
+A21	theme T8 equipement
+A22	polarite T8 neutre
+A23	logique T8 oui
+T9	INFERENCE 59 62	烧水壶
+A24	lexicale T9 oui
+A25	theme T9 equipement
+A26	polarite T9 positif
+T10	ABSENCE 72 92	地点 非常 好   饭店 人员 很 友善
+A27	theme T10 mixte
+A28	polarite T10 positif
+T11	ABSENCE 93 117	餐厅 豪华 ， 房间 干净 ， 卫生间 比较 大
+A29	theme T11 mixte
+A30	polarite T11 positif
+T12	ABSENCE 118 127	地理位置 很 不错
+A31	theme T12 localisation
+A32	polarite T12 positif
+T13	ABSENCE 128 139	地理位置 还 不错 。
+A33	theme T13 localisation
+A34	polarite T13 positif
+T14	INFERENCE 140 151	离 火车站 很 近 。
+A35	lexicale T14 oui
+A36	theme T14 localisation
+A37	polarite T14 positif
+A38	logique T14 oui
+T15	INFERENCE 142 145	火车站
+A39	lexicale T15 oui
+A40	theme T15 localisation
+A41	polarite T15 positif
+T16	ABSENCE 152 166	综合 来说 性价比 还 可以
+A42	theme T16 general
+A43	polarite T16 neutre
+T17	ABSENCE 167 204	酒店 房间 大 ， 设施 装修 风格 丢 很 赞 总体 性价比 很 高 ！
+A44	theme T17 mixte
+A45	polarite T17 positif
+T18	ABSENCE 205 210	都 很 好
+A46	theme T18 general
+A47	polarite T18 positif
+T19	INFERENCE 211 235	离 火车站 近 ， 方便 出行 ， 很 干净 。
+A48	lexicale T19 oui
+A49	theme T19 mixte
+A50	polarite T19 positif
+A51	logique T19 oui
+T20	INFERENCE 211 220	离 火车站 近 ，
+A52	lexicale T20 oui
+A53	theme T20 localisation
+A54	polarite T20 positif
+A55	logique T20 oui
+T21	INFERENCE 213 216	火车站
+A56	lexicale T21 oui
+A57	theme T21 localisation
+A58	polarite T21 positif
+T22	ABSENCE 221 228	方便 出行 ，
+A59	theme T22 localisation
+A60	polarite T22 positif
+T23	ABSENCE 229 235	很 干净 。
+A61	theme T23 proprete
+A62	polarite T23 positif
+T24	ABSENCE 236 244	早餐 品种 丰富
+A63	theme T24 equipement
+A64	polarite T24 positif
+T25	INFERENCE 245 289	这个 hotel 能 住 ， 适合 一个 人 穷 游 ， 别 有 太 多 别的 期待 。
+A65	pragmatique T25 oui
+A66	theme T25 general
+A67	polarite T25 negatif
+A68	logique T25 oui
+T26	INFERENCE 245 259	这个 hotel 能 住 ，
+A69	theme T26 general
+A70	polarite T26 neutre
+A71	logique T26 oui
+T27	INFERENCE 260 273	适合 一个 人 穷 游 ，
+A72	pragmatique T27 oui
+A73	theme T27 general
+A74	polarite T27 neutre
+T28	INFERENCE 274 289	别 有 太 多 别的 期待 。
+A75	theme T28 general
+A76	polarite T28 negatif
+A77	logique T28 oui
+T29	INFERENCE 290 351	老板 人 还 挺 可爱 的 ， 英语 讲 的 不好 但是 基本 能 沟通 ， 这边 手续 也 比较 方便 ， 不 复杂 。
+A78	pragmatique T29 oui
+A79	lexicale T29 oui
+A80	theme T29 mixte
+A81	polarite T29 positif
+A82	logique T29 oui
+T30	ABSENCE 290 305	老板 人 还 挺 可爱 的 ，
+A83	theme T30 personnel
+A84	polarite T30 positif
+T31	INFERENCE 306 328	英语 讲 的 不好 但是 基本 能 沟通 ，
+A85	pragmatique T31 oui
+A86	lexicale T31 oui
+A87	theme T31 personnel
+A88	polarite T31 positif
+A89	logique T31 oui
+T32	INFERENCE 306 308	英语
+A90	lexicale T32 oui
+A91	theme T32 personnel
+A92	polarite T32 positif
+T33	ABSENCE 329 344	这边 手续 也 比较 方便 ，
+A93	theme T33 personnel
+A94	polarite T33 positif
+T34	UNCERTAINE 345 351	不 复杂 。
+T35	ABSENCE 352 361	浴室 太小 了 。
+A95	theme T35 equipement
+A96	polarite T35 negatif
+T36	INFERENCE 362 382	公厕 ， 但是 离 房间 还 算 近 。
+A97	pragmatique T36 oui
+A98	theme T36 equipement
+A99	polarite T36 positif
+A100	logique T36 oui
+T37	INFERENCE 362 366	公厕 ，
+A101	pragmatique T37 oui
+A102	theme T37 equipement
+A103	polarite T37 negatif
+T38	UNCERTAINE 367 382	但是 离 房间 还 算 近 。
+T39	INFERENCE 383 393	有 个 小 阳台 。
+A104	pragmatique T39 oui
+A105	lexicale T39 oui
+A106	theme T39 equipement
+A107	polarite T39 positif
+A108	logique T39 oui
+A109	logique T37 oui
+T40	INFERENCE 389 391	阳台
+A110	lexicale T40 oui
+A111	theme T40 equipement
+A112	polarite T40 positif
+T41	ABSENCE 394 404	员工 服务态度 太差
+A113	theme T41 personnel
+A114	polarite T41 negatif
+T42	INFERENCE 405 497	住 了 六天 ， 头 三天 住 在 后 楼 ， 也 就是 接待厅 的 那栋 楼 ， 房间 里 有 小冰箱 ， 小 保险箱 ， 什么 都 好 。 如果 入住 ， 建议 住 在 后 楼 。
+A115	pragmatique T42 oui
+A116	lexicale T42 oui
+A117	theme T42 mixte
+A118	polarite T42 positif
+A119	logique T42 oui
+T43	INFERENCE 405 476	住 了 六天 ， 头 三天 住 在 后 楼 ， 也 就是 接待厅 的 那栋 楼 ， 房间 里 有 小冰箱 ， 小 保险箱 ， 什么 都 好 。
+A120	pragmatique T43 oui
+A121	lexicale T43 oui
+A122	theme T43 mixte
+A123	polarite T43 positif
+A124	logique T43 oui
+T44	UNCERTAINE 405 413	住 了 六天 ，
+T45	UNCERTAINE 414 428	头 三天 住 在 后 楼 ，
+T46	UNCERTAINE 429 446	也 就是 接待厅 的 那栋 楼 ，
+T47	INFERENCE 447 459	房间 里 有 小冰箱 ，
+A125	pragmatique T47 oui
+A126	lexicale T47 oui
+A127	theme T47 equipement
+A128	polarite T47 positif
+A129	logique T47 oui
+T48	INFERENCE 454 457	小冰箱
+A130	lexicale T48 oui
+A131	theme T48 equipement
+A132	polarite T48 positif
+T49	UNCERTAINE 460 467	小 保险箱 ，
+T50	INFERENCE 462 465	保险箱
+A133	lexicale T50 oui
+A134	theme T50 equipement
+A135	polarite T50 positif
+T51	ABSENCE 468 476	什么 都 好 。
+A136	theme T51 general
+A137	polarite T51 positif
+T52	INFERENCE 477 497	如果 入住 ， 建议 住 在 后 楼 。
+A138	theme T52 equipement
+A139	polarite T52 positif
+A140	logique T52 oui
+T53	UNCERTAINE 477 484	如果 入住 ，
+T54	INFERENCE 485 497	建议 住 在 后 楼 。
+A141	theme T54 equipement
+A142	polarite T54 positif
+A143	logique T54 oui
+T55	INFERENCE 498 553	然后 周边 什么 都 有 ， 饭店 ， 酒吧 ， 药店 ， 商店 ， 银行 ， 取款机 ， 妹子 ， 汉子 。
+A144	pragmatique T55 oui
+A145	lexicale T55 oui
+A146	theme T55 localisation
+A147	polarite T55 positif
+A148	logique T55 oui
+T56	INFERENCE 498 512	然后 周边 什么 都 有 ，
+A149	theme T56 localisation
+A150	polarite T56 positif
+T57	UNCERTAINE 513 517	饭店 ，
+T58	UNCERTAINE 518 522	酒吧 ，
+T59	UNCERTAINE 523 527	药店 ，
+T60	INFERENCE 523 525	药店
+A151	lexicale T60 oui
+A152	theme T60 localisation
+A153	polarite T60 positif
+T61	UNCERTAINE 528 532	商店 ，
+T62	UNCERTAINE 533 537	银行 ，
+T63	UNCERTAINE 538 543	取款机 ，
+T64	INFERENCE 538 541	取款机
+A154	lexicale T64 oui
+A155	theme T64 localisation
+A156	polarite T64 positif
+T65	UNCERTAINE 544 548	妹子 ，
+T66	UNCERTAINE 549 553	汉子 。
+T67	INFERENCE 554 584	无论 你 想 吃饭 还是 想 吃药 ， 都 能 满足 你 。
+A157	theme T67 localisation
+A158	polarite T67 positif
+A159	logique T67 oui
+T68	UNCERTAINE 554 573	无论 你 想 吃饭 还是 想 吃药 ，
+T69	UNCERTAINE 574 584	都 能 满足 你 。
+T70	INFERENCE 585 615	12路 地铁 ， 无论 转车 去 哪里 也 都 很 方便 。
+A160	pragmatique T70 oui
+A161	lexicale T70 oui
+A162	theme T70 localisation
+A163	polarite T70 positif
+A164	logique T70 oui
+T71	UNCERTAINE 585 593	12路 地铁 ，
+T72	INFERENCE 585 591	12路 地铁
+A165	lexicale T72 oui
+A166	theme T72 localisation
+A167	polarite T72 positif
+T73	ABSENCE 594 615	无论 转车 去 哪里 也 都 很 方便 。
+A168	theme T73 localisation
+A169	polarite T73 positif
+T74	INFERENCE 616 652	然后 老板 还是 比较 热情 ， 有 耐心 ， 有着 阿人 的 精明 。
+A170	pragmatique T74 oui
+A171	lexicale T74 oui
+A172	theme T74 personnel
+A173	polarite T74 positif
+A174	logique T74 oui
+T75	ABSENCE 653 666	价格 还 算 可以 了 。
+A175	theme T75 prix
+A176	polarite T75 positif
+T76	ABSENCE 616 632	然后 老板 还是 比较 热情 ，
+A177	theme T76 personnel
+A178	polarite T76 positif
+T77	ABSENCE 633 639	有 耐心 ，
+A179	theme T77 personnel
+A180	polarite T77 positif
+T78	INFERENCE 643 645	阿人
+A181	lexicale T78 oui
+A182	theme T78 personnel
+A183	polarite T78 neutre
+T79	INFERENCE 640 652	有着 阿人 的 精明 。
+A184	pragmatique T79 oui
+A185	lexicale T79 oui
+A186	theme T79 personnel
+A187	polarite T79 negatif
+T80	UNCERTAINE 667 675	Location
+T81	INFERENCE 676 697	房价 小   楼下 是 酒吧   晚上 吵
+A189	theme T81 mixte
+A190	polarite T81 negatif
+A191	logique T81 oui
+T82	ABSENCE 676 682	房价 小  
+A192	theme T82 equipement
+A193	polarite T82 negatif
+T83	INFERENCE 683 692	楼下 是 酒吧  
+A194	theme T83 localisation
+A195	polarite T83 inconnu
+A196	logique T83 oui
+T84	INFERENCE 693 697	晚上 吵
+A197	theme T84 equipement
+A198	polarite T84 negatif
+A199	logique T84 oui
+T85	INFERENCE 698 703	有 电吹风
+A188	pragmatique T85 oui
+A200	lexicale T85 oui
+A201	theme T85 equipement
+A202	polarite T85 positif
+A203	logique T85 oui
+T86	INFERENCE 700 703	电吹风
+A204	lexicale T86 oui
+A205	theme T86 equipement
+A206	polarite T86 positif
+T87	UNCERTAINE 704 712	接待 入住 效率
+T88	INFERENCE 713 785	地理位置 虽然 有点 远 ， 但是 离 地铁 只有 50米 距离 ， 吃饭 可以 在 一楼 餐厅 ， 不过 是 西餐厅 ， 周围 没有 中餐 。
+A210	enonciative T88 oui
+A211	pragmatique T88 oui
+A212	lexicale T88 oui
+A213	theme T88 mixte
+A214	polarite T88 neutre
+A215	logique T88 oui
+T89	ABSENCE 713 727	地理位置 虽然 有点 远 ，
+A216	theme T89 localisation
+A217	polarite T89 positif
+T90	INFERENCE 728 747	但是 离 地铁 只有 50米 距离 ，
+A218	enonciative T90 oui
+A219	pragmatique T90 oui
+A220	lexicale T90 oui
+A221	theme T90 localisation
+A222	polarite T90 positif
+A223	logique T90 oui
+T91	INFERENCE 733 735	地铁
+A224	lexicale T91 oui
+A225	theme T91 localisation
+A226	polarite T91 positif
+T92	INFERENCE 748 763	吃饭 可以 在 一楼 餐厅 ，
+A227	theme T92 equipement
+A228	polarite T92 positif
+A229	logique T92 oui
+T93	UNCERTAINE 764 774	不过 是 西餐厅 ，
+T94	INFERENCE 775 785	周围 没有 中餐 。
+A230	pragmatique T94 oui
+A231	lexicale T94 oui
+A232	theme T94 localisation
+A233	polarite T94 negatif
+A234	logique T94 oui
+T95	INFERENCE 781 783	中餐
+A235	lexicale T95 oui
+A236	theme T95 localisation
+A237	polarite T95 positif
+T96	INFERENCE 786 864	服务 非常 好 ， 走 时候 把 很 重要 的 东西 落到 了 大堂 ， 前台 工作人员 帮 我 叫 了 出租车 专门 送 去 机场 ， 非常感谢 他们 。
+A238	lexicale T96 oui
+A239	theme T96 qualiteService
+A240	discursive T96 oui
+A241	polarite T96 positif
+A242	logique T96 oui
+T97	ABSENCE 786 795	服务 非常 好 ，
+A243	theme T97 qualiteService
+A244	polarite T97 positif
+T98	UNCERTAINE 796 822	走 时候 把 很 重要 的 东西 落到 了 大堂 ，
+T99	INFERENCE 823 854	前台 工作人员 帮 我 叫 了 出租车 专门 送 去 机场 ，
+A245	pragmatique T99 oui
+A246	lexicale T99 oui
+A247	theme T99 qualiteService
+A248	polarite T99 positif
+A249	logique T99 oui
+T100	INFERENCE 850 852	机场
+A250	lexicale T100 oui
+A251	theme T100 localisation
+A252	polarite T100 positif
+T101	UNCERTAINE 855 864	非常感谢 他们 。
+T102	ABSENCE 865 880	床 很 舒适 ， 枕头 很 好
+A253	theme T102 equipement
+A254	polarite T102 positif
+T103	INFERENCE 881 906	离 火车站 挺 近 的 ， 走路 15分钟 到 。
+A255	pragmatique T103 oui
+A256	lexicale T103 oui
+A257	theme T103 localisation
+A258	polarite T103 positif
+A259	logique T103 oui
+T104	INFERENCE 883 886	火车站
+A260	lexicale T104 oui
+A261	theme T104 localisation
+A262	polarite T104 positif
+T105	INFERENCE 881 894	离 火车站 挺 近 的 ，
+A263	pragmatique T105 oui
+A264	lexicale T105 oui
+A265	theme T105 localisation
+A266	polarite T105 positif
+A267	logique T105 oui
+T106	UNCERTAINE 895 906	走路 15分钟 到 。
+T107	INFERENCE 907 930	酒店 下 的 日本 简易 饭馆 味道 不错 。
+A268	pragmatique T107 oui
+A269	theme T107 equipement
+A270	polarite T107 positif
+A271	logique T107 oui
+T108	INFERENCE 931 966	关键 出 酒店 就是 热闹 的 街道 ， 让 你 一次 逛 个 够 。
+A272	theme T108 localisation
+A273	polarite T108 positif
+A274	logique T108 oui
+T109	INFERENCE 931 951	关键 出 酒店 就是 热闹 的 街道 ，
+A275	theme T109 localisation
+A276	polarite T109 positif
+A277	logique T109 oui
+T110	UNCERTAINE 952 966	让 你 一次 逛 个 够 。
+T111	ABSENCE 967 978	客房 设施 维修 太慢
+A282	theme T111 qualiteService
+A283	polarite T111 negatif
+T112	INFERENCE 979 1057	地理位置 非常 棒 ， 就 在 埃菲尔铁塔 跟前 ， 门口 就 有 地铁站 ， 机场 也 有 大巴 直达 酒店 ， 总体 去 哪儿 交通 都 特别 方便 。
+A284	pragmatique T112 oui
+A285	lexicale T112 oui
+A286	theme T112 localisation
+A287	polarite T112 positif
+A288	logique T112 oui
+A289	pragmatique T83 oui
+A290	pragmatique T81 oui
+T113	ABSENCE 979 990	地理位置 非常 棒 ，
+A291	theme T113 localisation
+A292	polarite T113 positif
+T114	INFERENCE 991 1005	就 在 埃菲尔铁塔 跟前 ，
+A293	pragmatique T114 oui
+A294	lexicale T114 oui
+A295	theme T114 localisation
+A296	polarite T114 positif
+A297	logique T114 oui
+T115	INFERENCE 1006 1018	门口 就 有 地铁站 ，
+A298	lexicale T115 oui
+A299	theme T115 localisation
+A300	polarite T115 positif
+A301	logique T115 oui
+T116	INFERENCE 1019 1036	机场 也 有 大巴 直达 酒店 ，
+A302	lexicale T116
+A303	theme T116 localisation
+A304	polarite T116 positif
+A305	logique T116
+T117	INFERENCE 1019 1021	机场
+A306	lexicale T117 oui
+A307	theme T117 localisation
+A308	polarite T117 positif
+T118	INFERENCE 1026 1028	大巴
+A309	lexicale T118 oui
+A310	theme T118 localisation
+A311	polarite T118 positif
+T119	ABSENCE 1037 1057	总体 去 哪儿 交通 都 特别 方便 。
+A312	theme T119 localisation
+A313	polarite T119 positif
+T120	ABSENCE 1058 1076	环境 也 还 不错 ， 很 安静 。
+A314	theme T120 localisation
+A315	polarite T120 positif
+T121	INFERENCE 1077 1096	各 方面 都 有 意外 惊喜 ！ 很棒
+A316	theme T121 general
+A317	polarite T121 positif
+A318	logique T121 oui
+T122	INFERENCE 1077 1093	各 方面 都 有 意外 惊喜 ！
+T123	ABSENCE 1094 1096	很棒
+A319	theme T123 general
+A320	polarite T123 positif
+A321	theme T122 general
+A322	polarite T122 positif
+A323	logique T122 oui
+T124	INFERENCE 1097 1198	价位 确实 便宜       不过 酒店 不 干净     被单 上 还有 脏 的 没洗 干净 的 痕迹     周围 超市 挺 多       不过 附近 挺 乱     黑人   要饭 的 特别 多
+A324	pragmatique T124 oui
+A325	lexicale T124 oui
+A326	theme T124 mixte
+A327	polarite T124 negatif
+A328	logique T124 oui
+T125	ABSENCE 1097 1111	价位 确实 便宜      
+A329	theme T125 prix
+A330	polarite T125 positif
+T126	ABSENCE 1112 1126	不过 酒店 不 干净    
+A331	theme T126 proprete
+A332	polarite T126 negatif
+T127	INFERENCE 1127 1153	被单 上 还有 脏 的 没洗 干净 的 痕迹    
+A333	theme T127 equipement
+A334	polarite T127 negatif
+A335	logique T127 oui
+T128	INFERENCE 1170 1183	不过 附近 挺 乱    
+A336	theme T128 securite
+A337	polarite T128 negatif
+A338	logique T128 oui
+T129	INFERENCE 1184 1198	黑人   要饭 的 特别 多
+A339	pragmatique T129 oui
+A340	lexicale T129 oui
+A341	theme T129 securite
+A342	polarite T129 negatif
+A343	logique T129 oui
+T130	INFERENCE 1184 1186	黑人
+A344	lexicale T130 oui
+A345	theme T130 securite
+A346	polarite T130 negatif
+T131	INFERENCE 1199 1287	离 地铁 走 很 远 ， 拖 箱子 不 方便 ； 酒店 附近 黑人 很多 ， 夜里 有点 害怕 ； 房间 没有 热水壶 和 吹风机 ； 入住 的 时候 排队 了 大概 20分钟
+A347	pragmatique T131 oui
+A348	lexicale T131 oui
+A349	theme T131 mixte
+A350	polarite T131 negatif
+A351	logique T131 oui
+T132	INFERENCE 1154 1169	周围 超市 挺 多      
+A352	theme T132 localisation
+A353	polarite T132 positif
+A354	logique T132 oui
+T133	INFERENCE 1199 1211	离 地铁 走 很 远 ，
+A355	lexicale T133 oui
+A356	theme T133 localisation
+A357	polarite T133 negatif
+A358	logique T133 oui
+T134	INFERENCE 1201 1203	地铁
+A359	lexicale T134 oui
+A360	theme T134 localisation
+A361	polarite T134 positif
+T135	UNCERTAINE 1212 1223	拖 箱子 不 方便 ；
+T136	INFERENCE 1224 1237	酒店 附近 黑人 很多 ，
+A362	pragmatique T136 oui
+A363	lexicale T136 oui
+A364	theme T136 securite
+A365	polarite T136 negatif
+A366	logique T136 oui
+T137	INFERENCE 1230 1232	黑人
+A367	lexicale T137 oui
+A368	theme T137 securite
+A369	polarite T137 negatif
+T138	INFERENCE 1238 1248	夜里 有点 害怕 ；
+A370	theme T138 securite
+A371	polarite T138 negatif
+A372	logique T138 oui
+T139	INFERENCE 1249 1266	房间 没有 热水壶 和 吹风机 ；
+A373	pragmatique T139 oui
+A374	lexicale T139 oui
+A375	theme T139 equipement
+A376	polarite T139 negatif
+A377	logique T139 oui
+T140	INFERENCE 1267 1287	入住 的 时候 排队 了 大概 20分钟
+A378	theme T140 personnel
+A379	polarite T140 negatif
+A380	logique T140 oui
+T141	INFERENCE 1261 1264	吹风机
+A381	lexicale T141 oui
+A382	theme T141 equipement
+A383	polarite T141 positif
+T142	INFERENCE 1255 1258	热水壶
+A384	lexicale T142 oui
+A385	theme T142 equipement
+A386	polarite T142 positif
+T143	ABSENCE 1288 1293	卫生 整洁
+A387	theme T143 proprete
+A388	polarite T143 positif
+A389	pragmatique T108 oui
+A278	logique T56 oui
+T144	INFERENCE 1013 1016	地铁站
+A207	lexicale T144 oui
+A208	theme T144 localisation
+A209	polarite T144 positif
+T145	INFERENCE 995 1000	埃菲尔铁塔
+A279	lexicale T145 oui
+A280	theme T145 localisation
+A281	polarite T145 positif
+A390	pragmatique T138 oui
+A391	pragmatique T116
